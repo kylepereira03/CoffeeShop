@@ -19,8 +19,6 @@ window.onscroll = () => {
     })
 }
 
-
-
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x')
     navbar.classList.toggle('active')
@@ -32,8 +30,6 @@ document.querySelectorAll('.navbar a').forEach(link => {
         navbar.classList.remove('active');
     }
 });
-
-
 
 // Code for button to top
 let backToTopBtn = document.getElementById('back-to-top');
