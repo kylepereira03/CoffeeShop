@@ -10,7 +10,7 @@
 }
 
 :root {
-    --bg-color: #080808;
+    --bg-color: #1A120B;
     --text-color: white;
     --ascent-color: #bd8042;
 }
@@ -87,7 +87,7 @@ section {
     align-items: center;
     text-align: left;
     gap: 8rem;
-    background: url(/assets/background.jpg) center no-repeat;
+    background: url(/assets/background-main.jpg) center no-repeat;
     background-size: cover;
 }
 
@@ -105,8 +105,8 @@ section {
 .home-content p {
     font-size: 1.8rem;
     font-weight: 500;
-    max-width: 750px;
-    margin: 3rem 0;
+    max-width: 720px;
+    margin: 2rem auto;
 }
 
 .btn {
@@ -134,7 +134,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(/assets/background2.jpg);
+    background: url(/assets/background-section2.jpg);
     background-size: cover;
     min-height: 100vh;
 }
@@ -150,7 +150,7 @@ section {
     background-color: rgba(0, 0, 0, 0.6);
     border: 1px solid rgba(24, 24, 24, 0.3);
     border-radius: 2rem;
-    padding: 5rem;
+    padding: 4rem;
 }
 
 .about-content h2 {
@@ -160,8 +160,14 @@ section {
 
 .about-content p {
     font-size: 2rem;
+    line-height: 1.15;
     margin: 2rem 0 3rem;
-    max-width: 800px;
+    max-width: 920px;
+}
+
+span1 {
+    color: var(--ascent-color);
+    font-weight: bold;
 }
 
 .coffees {
@@ -176,7 +182,7 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 5rem;
     gap: 3rem;
 }
 
@@ -217,8 +223,7 @@ section {
 }
 
 .coffees-box .coffees-info:hover {
-    background: white;
-    color: black;
+    background: radial-gradient(rgba(0, 0, 0, 0.4), var(--ascent-color));
     transform: scale(1.05);
 }
 
@@ -245,7 +250,7 @@ section {
     border-radius: 50%;
 }
 
-.coffees-info a {
+.coffees-info a i{
     font-size: 3rem;
     color: var(--ascent-color);
 }
@@ -258,14 +263,10 @@ section {
     background-color: var(--bg-color);
 }
 
-.reviews h2 {
-    margin-bottom: 8rem;
-}
-
 .reviews-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 4rem;
+    margin-top: 5rem;
     gap: 2rem;
 }
 
@@ -286,7 +287,7 @@ section {
 .reviews-container .reviews-box:hover {
     border-color: var(--ascent-color);
     transform: scale(1.02);
-    background-color: white;
+    background-color: #E0C097;
     color: black;
 }
 
