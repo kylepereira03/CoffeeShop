@@ -26,12 +26,12 @@ body {
 }
 
 .header {
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 3rem 5%;
-    background: var(--bg-color);
+    background: #3C2A21;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,7 +77,7 @@ span {
 
 section {
     min-height: 100vh;
-    padding: 5rem 6% 10rem;
+    padding: 10rem 6% 10rem;
 }
 
 .home {
@@ -181,7 +181,7 @@ span1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     gap: 3rem;
 }
 
@@ -265,7 +265,7 @@ span1 {
 .reviews-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 5rem;
+    margin-top: 2rem;
     gap: 2rem;
 }
 
