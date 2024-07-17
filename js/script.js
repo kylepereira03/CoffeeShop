@@ -19,7 +19,34 @@ window.onscroll = () => {
     })
 }
 
+
+
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x')
     navbar.classList.toggle('active')
 }
+
+document.querySelectorAll('.navbar a').forEach(link => {
+    link.onclick = () => {
+        menuIcon.classList.remove('bx-x');
+        navbar.classList.remove('active');
+    }
+});
+
+
+
+// Code for button to top
+let backToTopBtn = document.getElementById('back-to-top');
+
+window.onscroll = function() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopBtn.style.display = "block";
+    } else {
+        backToTopBtn.style.display = "none";
+    }
+};
+
+backToTopBtn.addEventListener('click', function() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+});
