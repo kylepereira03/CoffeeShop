@@ -86,7 +86,7 @@ section {
     align-items: center;
     text-align: left;
     gap: 8rem;
-    background: url(../assets/background-main.jpg) center no-repeat;
+    background: url(../assets/backgroundmain.jpg) center no-repeat;
     background-size: cover;
 }
 
@@ -133,7 +133,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../assets/background-section2.jpg);
+    background: url(../assets/backgroundsection2.jpg);
     background-size: cover;
     min-height: 100vh;
 }
